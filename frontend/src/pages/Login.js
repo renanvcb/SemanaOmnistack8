@@ -5,7 +5,6 @@ import api from '../services/api';
 
 import logo from '../assets/logo.svg';
 
-<<<<<<< HEAD
 export default function Login({ history }) {
     const [username, setUsername] = useState('');
 
@@ -19,15 +18,6 @@ export default function Login({ history }) {
         const { _id } = response.data;
 
         history.push(`/dev/${_id}`);
-=======
-export default function login() {
-    const [username, setUsername] = useState('');
-
-    function handleSubmit(e) {
-        e.preventDefault();
-
-        console.log(username);
->>>>>>> 1f2dcbcb7af24b5baba1bdbcfdc6beeab2d7830f
     }
 
     return (
