@@ -7,8 +7,12 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
+<<<<<<< HEAD
     "react-scripts": "3.0.1",
     "socket.io-client": "^2.2.0"
+=======
+    "react-scripts": "3.0.1"
+>>>>>>> 1f2dcbcb7af24b5baba1bdbcfdc6beeab2d7830f
   },
   "scripts": {
     "start": "react-scripts start",

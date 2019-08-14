@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 import { Link } from 'react-router-dom';
@@ -96,4 +97,10 @@ export default function Main({ match }) {
                 )}
         </div>
     )
+=======
+import React from 'react';
+
+export default function main() {
+    return <h1>Hello world</h1>
+>>>>>>> 1f2dcbcb7af24b5baba1bdbcfdc6beeab2d7830f
 }
