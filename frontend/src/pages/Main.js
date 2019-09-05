@@ -29,7 +29,7 @@ export default function Main({ match }) {
     }, [match.params.id]);
 
     useEffect(() => {
-        const socket = io('http://localhost:3333', {
+        const socket = io('http://192.168.10.134:3333', {
             query: { user: match.params.id }
         });
 
